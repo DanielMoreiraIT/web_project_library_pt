@@ -24,7 +24,7 @@
 }
 
 .nav__logo {
-  width: 57px;
+  width: 58px;
   height: 80px;
 }
 
@@ -39,7 +39,7 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .header__content {
@@ -100,6 +100,7 @@
   line-height: 52px;
   font-weight: 400;
   margin: 0;
+  margin-bottom: 24px;
 }
 
 .staff__subtitle {
@@ -107,12 +108,13 @@
   color: #ffffff;
   font-size: 20px;
   line-height: 30px;
-  margin: 24px 0 68px;
+  margin: 0;
 }
 
 .staff__cards {
   max-width: 760px;
   margin: 0 auto;
+  margin-top: 68px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -127,11 +129,11 @@
   background-color: #ffffff;
   border-radius: 6px;
   box-sizing: border-box;
+  padding: 32px 40px 20px;
 }
 
 .card__content {
   height: 100%;
-  padding: 32px 40px 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -146,7 +148,7 @@
 
 .card__text {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 24px;
   margin: 20px 0 0;
 }
 
@@ -156,4 +158,6 @@
   color: #838383;
   margin-top: auto;
   margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
