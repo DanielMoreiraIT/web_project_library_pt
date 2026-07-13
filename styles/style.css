@@ -161,3 +161,131 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+.events {
+  padding: 100px 80px 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 0 0 32px;
+}
+
+.events__title {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  margin: 0 0 32px;
+}
+
+.events__info-section {
+  margin-bottom: 40px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.event-info__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  position: relative;
+  flex-basis: 780px;
+  min-height: 660px;
+}
+
+.events__image {
+  width: 100%;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person__caption {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.person__image {
+  border-radius: 50%;
+}
+
+.person__image_size_l {
+  width: 140px;
+  height: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+  height: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+  height: 80px;
+}
+
+.person_name_feynman {
+  top: -30px;
+  left: 319px;
+}
+
+.person_name_burbidge {
+  top: 96px;
+  right: 125px;
+}
+
+.person_name_cannon {
+  right: 216px;
+  bottom: 18px;
+}
+
+.person_name_mitchell {
+  left: 142px;
+  bottom: 82px;
+}
+
+.person_name_tarter {
+  top: 79px;
+  left: 159px;
+}
