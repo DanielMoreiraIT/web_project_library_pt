@@ -129,11 +129,11 @@
   background-color: #ffffff;
   border-radius: 6px;
   box-sizing: border-box;
-  padding: 32px 40px 20px;
 }
 
 .card__content {
   height: 100%;
+  padding: 32px 40px 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -163,9 +163,9 @@
 }
 
 .events {
-  padding: 100px 80px 120px;
+  padding: 100px 0 120px 80px;
   display: flex;
-  align-items: flex-start;
+  align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
   background-color: #f2f2f2;
@@ -179,42 +179,46 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  margin: 0 0 32px;
+  margin: 0;
 }
 
 .events__title {
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
-  margin: 0 0 32px;
+  margin: 32px 0 0;
 }
 
 .events__info-section {
-  margin-bottom: 40px;
+  margin-top: 32px;
 }
 
 .event-info__item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
+  font-weight: 500;
 }
 
 .event-info__icon {
   width: 24px;
   height: 24px;
   margin-right: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .event-info__text {
   font-size: 20px;
   line-height: 30px;
+  font-weight: 500;
   margin: 0;
 }
 
 .events__description {
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 60px;
+  margin: 40px 0 60px;
 }
 
 .events__more {
@@ -223,46 +227,48 @@
 }
 
 .events__cover {
-  position: relative;
+  flex-grow: 1;
+  flex-shrink: 0;
   flex-basis: 780px;
-  min-height: 660px;
+  max-width: 780px;
+  position: relative;
 }
 
 .events__image {
-  width: 100%;
+  max-width: 100%;
 }
 
 .person {
   position: absolute;
+  z-index: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .person__caption {
+  text-align: center;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
-  text-align: center;
 }
 
 .person__image {
+  max-width: 100%;
   border-radius: 50%;
 }
 
 .person__image_size_l {
   width: 140px;
-  height: 140px;
 }
 
 .person__image_size_m {
   width: 100px;
-  height: 100px;
 }
 
 .person__image_size_s {
   width: 80px;
-  height: 80px;
 }
 
 .person_name_feynman {
